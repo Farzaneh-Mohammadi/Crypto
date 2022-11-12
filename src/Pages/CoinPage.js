@@ -42,7 +42,6 @@ const CoinPage = () => {
           {coin?.name}
         </Typography>
         <Typography variant="subtitle1" className="description">
-          {/* {ReactHtmlParser(coin?.description.en.split(". ")[0])}. */}
         </Typography>
         <div className="marketData">
           <span style={{ display: "flex" }}>

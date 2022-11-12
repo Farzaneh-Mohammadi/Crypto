@@ -174,12 +174,9 @@ export default function CoinsTable() {
           )}
         </TableContainer>
 
-        {/* Comes from @material-ui/lab */}
 
 
-        {/* <Stack spacing={2}>
-      <Pagination count={10} variant="outlined" shape="rounded" />
-    </Stack> */}
+
 
         <Pagination
           count={(handleSearch()?.length / 10).toFixed(0)}
