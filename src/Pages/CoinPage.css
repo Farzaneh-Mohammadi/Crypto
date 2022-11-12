@@ -1,5 +1,6 @@
 .container {
     display: "flex";
+    height:87.5vh;
     /* [theme.breakpoints.down("md")]: {
       flexDirection: "column",
       alignItems: "center",
@@ -15,7 +16,9 @@
     display: "flex";
     flex-direction: "column";
     align-items: "center";
-    margin-top: 25px;
+    /* margin-top: 25px; */
+    margin: 2rem auto;
+
     border-right: "2px solid grey";
   }
 
