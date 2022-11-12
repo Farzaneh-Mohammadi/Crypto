@@ -20,10 +20,6 @@ const CoinInfo = ({ coin }) => {
 
 
 
-
-  console.log("cccccccccccccc" , coin);
-  // console.log("ffffffff" , HistoricalChart(coin.id, days, currency));
-
   useEffect(() => {
 
       const fetchHistoricData = async () => {
@@ -33,7 +29,6 @@ const CoinInfo = ({ coin }) => {
   };
 
 
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [days]);
 
   const darkTheme = createTheme({

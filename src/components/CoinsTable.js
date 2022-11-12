@@ -1,8 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import Pagination from "@material-ui/lab/Pagination";
-// import Pagination from '@mui/material/Pagination';
-// import Stack from '@mui/material/Stack';
-
 import {
   Container,
   createTheme,
@@ -60,7 +56,6 @@ export default function CoinsTable() {
 
   useEffect(() => {
     fetchCoins();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency]);
 
   const handleSearch = () => {
@@ -88,7 +83,6 @@ export default function CoinsTable() {
         />
         <TableContainer component={Paper}>
           {loading ? (
-            // <p>fdgfrwgsreg</p>
             <LinearProgress style={{ backgroundColor: "gold" }} />
           ) : (
             <Table aria-label="simple table">
